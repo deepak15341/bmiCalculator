@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">bmiCalculator</string>
+    <string name="heightft">Enter your height(feet)</string>
+    <string name="heightin">Enter your height(inch)</string>
+    <string name="weight">Enter your weight</string>
+    <string name="button">Calculate</string>
+    <string name="result">Your result here</string>
+    <string name="unw">You are underweight!</string>
+    <string name="owt">You are overweight!</string>
+    <string name="ht">You are healthy!</string>
+    <string name="condition">Your condition here</string>
+</resources>
