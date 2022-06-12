@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
             float bmi= (float) (wt/(htm*htm));
             if (bmi<18){
                 txt.setText("Your Bmi is : "+bmi );
-                txt2.setText(R.string.owt);
+                txt2.setText(R.string.unw);
                 llmain.setBackgroundColor(getResources().getColor(R.color.yellow));
             }
             else if (bmi>25){
                 txt.setText("Your Bmi is : "+bmi );
-                txt2.setText(R.string.unw);
+                txt2.setText(R.string.owt);
                 llmain.setBackgroundColor(getResources().getColor(R.color.red));
             }
 
